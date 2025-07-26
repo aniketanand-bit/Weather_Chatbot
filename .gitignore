@@ -1,1 +1,5 @@
-chatbot_model.pkl
+.env
+__pycache__/
+*.pyc   
+.vscode/
+*.pkl
