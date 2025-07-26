@@ -1,0 +1,100 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Hey there", "Hiya",
+        "Good morning", "Good afternoon", "Good evening",
+        "Howdy", "Yo", "What's up", "Sup", "Greetings",
+        "Hi there, how are you", "Hello bot", "Hey buddy",
+        "Good day", "Morning!", "Evening!", "Hii", "Hiii",
+        "Hola", "Bonjour", "Namaste", "Konnichiwa"
+      ],
+      "responses": [
+        "Hello! I'm here to help you with weather information. How can I assist you today?",
+        "Hi there! I can provide weather updates for any city. What would you like to know?",
+        "Hey! Great to see you. Ask me about the weather anywhere in the world!",
+        "Good day! I'm your weather assistant. Feel free to ask about current conditions or forecasts."
+      ]
+    },
+    {
+      "tag": "weather_current",
+      "patterns": [
+        "What's the weather like", "Current weather", "How's the weather",
+        "Weather today", "Today's weather", "What's it like outside",
+        "Is it sunny", "Is it raining", "Weather conditions", "Current conditions",
+        "How's the weather today", "What's the temperature", "Is it hot", "Is it cold",
+        "Tell me today's weather", "Show me current weather stats",
+        "Update on today's weather", "Weather report please", "Weather now",
+        "Are we expecting rain", "Is there snow right now", "Do I need an umbrella",
+        "Should I wear a coat today", "Temp right now", "Give me the temperature outside"
+      ],
+      "responses": [
+        "I'd be happy to help with weather information! Could you please tell me which city you'd like to know about?",
+        "Sure! I can get current weather conditions for you. Which location are you interested in?",
+        "I can provide current weather data. Please specify the city or location you want to check."
+      ]
+    },
+    {
+      "tag": "weather_location",
+      "patterns": [
+        "Weather in London", "New York weather", "Weather in Paris",
+        "Tokyo weather", "Weather in Tokyo", "London weather",
+        "What's the weather in Seattle", "How's the weather in Delhi",
+        "Temperature in Berlin", "Weather for Rome", "Climate in Sydney",
+        "Tell me the weather for Madrid", "Weather LA", "Singapore weather update",
+        "Forecast for Toronto", "Update me on weather in Dublin", "Show Paris weather",
+        "Weather report Moscow", "Is it raining in Mumbai", "How hot is Cairo",
+        "What's the temp in Dubai", "Check weather Cape Town", "Weather Chicago now",
+        "Any snow in Helsinki", "Give me weather Osaka", "Temperature for Rio de Janeiro"
+      ],
+      "responses": [
+        "Let me get the weather information for that location!",
+        "I'll fetch the current weather data for you right away!",
+        "Getting the latest weather information for that city..."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Thanks a lot", "Thank you so much",
+        "I appreciate it", "Cheers", "Thanks for your help",
+        "Thank you for the information", "Much appreciated", "Great, thanks",
+        "Thx", "Thanx", "Many thanks", "Thanks buddy", "Appreciate your help",
+        "That was helpful", "Cool, thanks", "Ty", "Thanks a bunch", "Thank-you"
+      ],
+      "responses": [
+        "You're welcome! Happy to help with weather info anytime!",
+        "Glad I could help! Feel free to ask about weather conditions anytime.",
+        "You're very welcome! I'm here whenever you need weather updates."
+      ]
+    },
+	
+	{
+	  "tag": "weather_location",
+	  "patterns": [
+		"Weather in London", "New York weather", "Weather in Paris",
+		"Tokyo weather", "Weather in Tokyo", "London weather",
+		"London", "Paris", "Tokyo", "New York", "Mumbai", "Delhi",
+		"Berlin", "Sydney", "Toronto", "Chicago", "Seattle"
+	  ]
+	},
+	
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "See you",
+        "Talk to you later", "Catch you later", "Farewell",
+        "Until next time", "Take care", "Have a good day",
+        "Have a good one", "Later", "Peace", "Quit", "Exit",
+        "Ciao", "Adios", "See ya", "Bye bye", "Catch ya later"
+      ],
+      "responses": [
+        "Goodbye! Stay safe and have a great day! 👋",
+        "See you later! Don't forget to check the weather before you go out!",
+        "Take care! I'll be here whenever you need weather updates."
+      ]
+	  
+    }
+  ]
+}
